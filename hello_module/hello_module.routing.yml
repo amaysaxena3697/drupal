@@ -1,0 +1,23 @@
+hello_module.hello:
+  path: '/hello/page'
+  defaults:
+    _controller: \Drupal\hello_module\Controller\HelloController::hello
+  _title: 'Welcome to My New Module HELLO in Drupal 9'
+  requirements:
+    _permission: 'acess content'
+
+new_form:
+  path: '/newform'
+  defaults:
+    _form: '\Drupal\hello_module\Form\NewForm'
+    _title: 'Form'
+  requirements:
+    _permission: 'access content'
+
+hello_module.test:
+  path: "/admin/config/system/Configuration"
+  defaults:
+    _form: '\Drupal\hello_module\Form\ConfigurationForm'
+    _title: "Student Registration Form"
+  requirements:  
+   _permission: 'administer site configuration'

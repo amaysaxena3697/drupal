@@ -1,0 +1,22 @@
+.node__links {
+    font-weight: bold;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.drupal_list {
+    color:darkorchid;
+    font-size: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    
+}
+.welcome {
+    color:deeppink;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ab {
+    color:fuchsia;
+}
+

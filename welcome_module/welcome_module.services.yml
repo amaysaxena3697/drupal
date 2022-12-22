@@ -1,0 +1,4 @@
+services:
+  welcome_module.hello:
+    class: Drupal\welcome_module\HelloWorldServices
+    arguments: ['@current_user','@entity_type.manager']

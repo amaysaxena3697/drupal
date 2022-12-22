@@ -1,0 +1,7 @@
+welcome_module.welcome_configuration:
+  title: Welcome Config
+  route_name: welcome_module.test
+  parent: system.admin_config_system
+  description: 'Welcome Config'
+  position: left
+  weight: 20

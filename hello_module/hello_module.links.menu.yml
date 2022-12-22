@@ -1,0 +1,7 @@
+hello_module.hello_configuration:
+  title: Hello Config
+  route_name: hello_module.test
+  parent: system.admin_config_system
+  description: 'Hello Config'
+  position: left
+  weight: -20

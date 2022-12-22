@@ -1,0 +1,7 @@
+module_helloworld.welcome:
+  path: '/welcome/page'
+  defaults:
+    _controller: \Drupal\module_helloworld\Controller\WelcomeController::welcome
+  _title: 'Welcome to My Module in Drupal 9'
+  requirements:
+    _permission: 'access content'

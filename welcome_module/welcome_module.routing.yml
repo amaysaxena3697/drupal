@@ -1,0 +1,39 @@
+welcome_module.welcome:
+  path: '/welcome/page'
+  defaults:
+    _controller: \Drupal\welcome_module\Controller\WelcomeController::welcome
+  _title: 'Welcome to My Module in Drupal 9'
+  requirements:
+    _permission: 'access content'
+
+custom_form:
+  path: '/customform'
+  defaults:
+    _form: '\Drupal\welcome_module\Form\CustomForm'
+    _title: 'Form'
+  requirements:  
+   _permission: 'access content'
+   
+welcome_module.test:
+  path: "/admin/config/system/welcome"
+  defaults:
+    _form: '\Drupal\welcome_module\Form\WelcomeForm'
+    _title: "Student Registration Form"
+  requirements:  
+   _permission: 'administer site configuration'
+
+welcome_module.myservices:
+  path: "/custom_service/test"
+  defaults:
+    _controller: '\Drupal\welcome_module\Controller\ServicesTest::content'
+    _title: "Testing"
+  requirements:
+    _permission: "access content"  
+
+welcome_module.lenovoservices:
+  path: "/lenovo_service/test"
+  defaults:
+    _controller: '\Drupal\welcome_module\Controller\ServiceTest2::content'
+    _title: "Testing2"
+  requirements:
+    _permission: "access content"  
