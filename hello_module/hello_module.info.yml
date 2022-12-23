@@ -1,8 +1,8 @@
 name: Hello Module
 type: module
-description: 'New Custom Module Name Hello In Drupal 9 by saxenaamay.'
-package: Custom
-version: 1.0
-core_version_requirement: ^8 || ^9
+description: 'New Custom Module Name Hello In Drupal 9.'
+package: Custom  
+version: 1.0  
+core_version_requirement: ^8 || ^9  
 libraries:
   - hello_module/mystyle
